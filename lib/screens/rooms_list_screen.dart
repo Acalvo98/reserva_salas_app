@@ -13,13 +13,7 @@ class RoomsScreen extends StatefulWidget {
 
 class _RoomsScreenState extends State<RoomsScreen> {
   String selectedStatus = 'Todas';
-  final List<String> statusOptions = [
-    'Todas',
-    'confirmada',
-    'completada',
-    'cancelada',
-    'disponible',
-  ];
+  final List<String> statusOptions = ['Todas', 'ocupada', 'disponible'];
 
   int selectedMinCapacity = 0;
   final List<int> capacityOptions = [0, 5, 10, 20, 30, 40];
